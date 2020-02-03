@@ -8,9 +8,9 @@ Timeline based on MIDI Sequencer for VL/VVVV
 * LTC (SMPTE) <-> MIDI Timing conversions
 * Tempo-automation safe
 * Loop-Region (handy for development)
-* 
+* Make use of clips to mark parts of the arrangement
 
-# Usage
+## Usage
 * **Hold right mouse button** Scroll
 * **Middle mouse button** Set playhead
 * **Space** Play
@@ -19,7 +19,7 @@ Timeline based on MIDI Sequencer for VL/VVVV
 * **Ctrl+S** Save arrangement
 * **Ctrl+L** Load arrangement
 
-#Roadmap
+## Roadmap
 * Improve UI for clips (overlapping clips are lazily solved by placing them in 4 alternating rows)
 * Improve overall UI/UX
 * Performance Enhancements (zooming out is very bad on the cpu, scrolling while doing so even more)
