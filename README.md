@@ -3,9 +3,9 @@ Timeline based on MIDI Sequencer for VL/VVVV
 Needs vvvv beta-preview > #4305 (because of changes to the internally used MIDI library)
 
 ## Features
-* Enable/Disable individual Tracks (instruments)
-* Select individual notes in each Track and split
-* Split Tracks and Note Selections to operate on played note events
+* Enable/Disable individual tracks (instruments)
+* Create selections for individual notes
+* Split tracks and note selections to operate on played note events
 * LTC (SMPTE) <-> MIDI Timing conversions
 * Tempo-automation safe
 * Loop-Region (handy for development)
@@ -23,7 +23,7 @@ Needs vvvv beta-preview > #4305 (because of changes to the internally used MIDI 
 ## Roadmap
 * Improve UI for clips (overlapping clips are lazily solved by placing them in 4 alternating rows)
 * Improve overall UI/UX
-* Performance Enhancements (zooming out is very bad on the cpu, scrolling while doing so even more)
+* Performance enhancements (zooming out is very bad on the cpu, scrolling while doing so even more)
 
 ## Known bugs
-* Elementa UI Widgets sometimes don't get initialized properly
+* Elementa UI widgets sometimes don't get initialized properly
