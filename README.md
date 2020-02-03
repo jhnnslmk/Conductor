@@ -11,13 +11,13 @@ Timeline based on MIDI Sequencer for VL/VVVV
 * 
 
 # Usage
-* *Hold right mouse button* Scroll
-* Middle mouse button: Set playhead
-* Space: Play
-* N: Place loop start marker M: Place loop end marker
-* L: Toggle loop
-* Ctrl+S: Save arrangement
-* Ctrl+L Load arrangement
+* **Hold right mouse button** Scroll
+* **Middle mouse button** Set playhead
+* **Space** Play
+* **N** Place loop start marker **M** Place loop end marker
+* **L** Toggle loop
+* **Ctrl+S** Save arrangement
+* **Ctrl+L** Load arrangement
 
 #Roadmap
 * Improve UI for clips (overlapping clips are lazily solved by placing them in 4 alternating rows)
