@@ -1,5 +1,5 @@
 # Conductor
-Timeline based on MIDI Sequencer for VL/VVVV
+Timeline based on MIDI Sequencer for VL/VVVV  
 Needs vvvv beta-preview > #4305 (because of changes to the internally used MIDI library)
 
 ## Features
