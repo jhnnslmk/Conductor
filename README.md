@@ -11,7 +11,7 @@ Timeline based on MIDI Sequencer for VL/VVVV
 * 
 
 # Usage
-* _Hold right mouse button_: Scroll
+* *Hold right mouse button* Scroll
 * Middle mouse button: Set playhead
 * Space: Play
 * N: Place loop start marker M: Place loop end marker
