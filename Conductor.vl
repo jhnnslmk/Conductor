@@ -21000,7 +21000,7 @@
               <ControlPoint Id="PxwIffmWMCNONEIgBbp289" Bounds="181,290" Alignment="Top" />
               <ControlPoint Id="ScXvVHx717WMN96uiBeaxp" Bounds="181,349" Alignment="Bottom" />
             </Node>
-            <Pad Id="TwxcmtAlhMoLSkMH0rAWL9" Comment="" Bounds="239,63,86,15" ShowValueBox="true" isIOBox="true" Value="assets\Marseillaise_neu.mid">
+            <Pad Id="TwxcmtAlhMoLSkMH0rAWL9" Comment="" Bounds="239,63,86,15" ShowValueBox="true" isIOBox="true" Value="..\..\assets\Marseillaise_neu.mid">
               <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Path" />
               </p:TypeAnnotation>
@@ -32322,5 +32322,5 @@
   <NugetDependency Id="NKwXPzIDuyqLAun1RGgQbf" Location="VL.CoreLib" Version="2019.1.0-0959-g3a31ab0c51" />
   <PlatformDependency Id="QH9ExTHCLcSM3u8kwWxuUV" Location="System.Windows.Forms" />
   <PlatformDependency Id="I3UkjjMBVgZMNPClcXzjA6" Location="../vvvv-beta-preview-midi/vvvv_beta_39.1-4306_preview_x64/lib/core/Sanford.Multimedia.Midi.dll" />
-  <DocumentDependency Id="RbV5B88ZeneNpJWx0AKx9n" Location="./VL.jhnnslmk/VL.jhnnslmk.vl" />
+  <DocumentDependency Id="C1VcLA5555SQYxLsLjsvmv" Location="../../../Conductor/VL.jhnnslmk/VL.jhnnslmk.vl" />
 </Document>
