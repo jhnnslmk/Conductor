@@ -4242,6 +4242,18 @@
                   <Pin Id="D2aK1d7YwYtNQSPWLAXgFA" Name="Length" Kind="OutputPin" />
                   <Pin Id="RxTF88194MXN7AfVRl80V0" Name="Seconds" Kind="OutputPin" />
                 </Node>
+                <Node Bounds="68,383,76,26" Id="FkX6vOcUGMrLrWCKaHIY9P">
+                  <p:NodeReference LastCategoryFullName="IO.Midi.Messages.ChannelMessage" LastSymbolSource="VL.IO.Midi.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="RecordType" Name="ChannelMessage" />
+                    <Choice Kind="OperationCallFlag" Name="Split" />
+                  </p:NodeReference>
+                  <Pin Id="BHKI81cs9jWPBUhOC75o9H" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="Db45l2KYoLjOaqEqWAeHaz" Name="Command" Kind="OutputPin" />
+                  <Pin Id="JXQ0Xu4bsH7PZdyRxpnSWK" Name="Channel" Kind="OutputPin" />
+                  <Pin Id="V0AanEHg0LZNVavdjE2iuk" Name="Number" Kind="OutputPin" />
+                  <Pin Id="GPCJKbe0XlZP00c3vDEptC" Name="Value" Kind="OutputPin" />
+                </Node>
               </Patch>
               <ControlPoint Id="LlgdWPkD2I8LfP5vMSaiXB" Bounds="159,566" Alignment="Bottom" />
               <ControlPoint Id="HnXd7h1u4emOnvfBgJQlMb" Bounds="391,566" Alignment="Bottom" />
@@ -4344,6 +4356,7 @@
           <Link Id="AyAcpvjd4whNMHiJjUtcsk" Ids="EXrWuCLg8SFOeYGqdWUnQL,HEZT45e6sErLev75L8aY9J" />
           <Link Id="VXDQFCgKJKJOMUgO1q5gWx" Ids="HEZT45e6sErLev75L8aY9J,CS9bNYcEjNxMZgoHqFNyWQ" IsHidden="true" />
           <Link Id="EpOA4YD36YQOWJxqZ3hLyp" Ids="SHpcRR54hDhONtGVfi5OX0,UgCe4vfcZj9PVrWbLYa7MN" />
+          <Link Id="L92JFcfKRM8QNroZcHG9UQ" Ids="Gaos6EhVomIOFdRl8rnXDB,BHKI81cs9jWPBUhOC75o9H" />
         </Patch>
       </Node>
       <!--
@@ -4580,11 +4593,6 @@
             <Pin Id="Gl5n2NF2mwRO1ljwglcdC4" Name="Note Length" Kind="OutputPin" Bounds="246,843" />
             <Pin Id="Rv2j927cWMyLKgBRo4gT7x" Name="Ticks" Kind="OutputPin" Bounds="163,1129" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="RiufQwgRX1iOosFfmmHYqJ">
             <Fragment Id="TpuegwrQibGOir6EWdw5V5" Patch="MkwWzM3hNakLJAqvVkDYO1" Enabled="true" />
             <Fragment Id="B0YWEiyhTlqQUFBhNj4kTQ" Patch="PiQ6yOlYHs1PQq8RAWVLzD" Enabled="true" />
