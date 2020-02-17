@@ -1428,6 +1428,7 @@
                     <CategoryReference Kind="RecordType" Name="TrackModel" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
                   <Pin Id="UzARMIto3u5LRakfFx8Rvq" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="HLeaKI70tAGL392dfIL7Xn" Name="Output" Kind="OutputPin" />
                   <Pin Id="ANFiAExKcrwPR3beY7xhNT" Name="Name" Kind="OutputPin" />
                   <Pin Id="Nv02pRzPuTfPHi9XKL6UyO" Name="Color" Kind="OutputPin" />
                   <Pin Id="NJBNNIxiZlqMa2QwkEf3Ec" Name="Notes" Kind="OutputPin" />
