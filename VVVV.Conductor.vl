@@ -972,16 +972,16 @@
               </p:NodeReference>
               <Pin Id="UTr6foNc5HJMxrUJSHewka" Name="Custom Midi Events" Kind="InputPin" />
               <Pin Id="BiqTM8XMlTOOEQZ3Um60P1" Name="Note Value" Kind="OutputPin" />
-              <Pin Id="T9WDswQBoh0LYch89HHDvh" Name="Note Bang" Kind="OutputPin" />
               <Pin Id="CnPQSzKdOqMNKjdoBtHLTE" Name="Note Velocity" Kind="OutputPin" />
+              <Pin Id="T9WDswQBoh0LYch89HHDvh" Name="Note Bang" Kind="OutputPin" />
             </Node>
           </Canvas>
           <Patch Id="HyCQ8ECbQZtPeCWCdLNvAH" Name="Create" />
           <Patch Id="BYlP5iAVN61NdNgGX2p7wu" Name="Update">
             <Pin Id="CWJf42Bz52aNgM5YebNVYa" Name="Custom Midi Events" Kind="InputPin" />
             <Pin Id="GBNdxBwuH5yLZ3bExwUkD7" Name="Note Value" Kind="OutputPin" />
-            <Pin Id="IsKStkWgebmPFIDsqYY2ux" Name="Note Bang" Kind="OutputPin" />
             <Pin Id="KHwULArQu8ZMuFjGENHQ4p" Name="Note Velocity" Kind="OutputPin" />
+            <Pin Id="IsKStkWgebmPFIDsqYY2ux" Name="Note Bang" Kind="OutputPin" />
           </Patch>
           <ProcessDefinition Id="MLA97aUgKDeOf3nl7FnAt8">
             <Fragment Id="Apn1cOMQfLhNPf3SPjeykw" Patch="HyCQ8ECbQZtPeCWCdLNvAH" Enabled="true" />
@@ -3102,11 +3102,6 @@
             <Pin Id="K2JjHWr8janQHZJEcy9UnV" Name="Current BPM" Kind="OutputPin" Bounds="375,362" />
             <Pin Id="F8hf1Quw62zP9t92H5q4wX" Name="Delta Ticks" Kind="OutputPin" Bounds="182,406" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="AZqkH8jFinCMiDxGW96YuL">
             <Fragment Id="InBxdXOpwASPYNyIlFosVd" Patch="FQwEoyY6mRhQKXQUJZg4wt" Enabled="true" />
             <Fragment Id="JPAsAdWhr1UOYQAhCA0px7" Patch="MSaTl8zoJH9Nn9sg40pIJa" Enabled="true" />
@@ -3236,11 +3231,6 @@
             <Pin Id="Ig5vshcKKaJLGGLEae3xj5" Name="Length Ticks" Kind="OutputPin" Bounds="582,354" />
             <Pin Id="OWWFhxQxPICQMaUSwqfQX1" Name="Length Seconds" Kind="OutputPin" Bounds="776,483" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="FNoh9orJBx4OAcmazsI88M">
             <Fragment Id="Abx7YaqXK5xO5b3h9KP7hz" Patch="LhwU8X6yljCQR5jaTfqTee" Enabled="true" />
             <Fragment Id="HMkfoJvQhYqPBAJXfzNqam" Patch="CJgaLFJx9lyMBX1c3CkOrf" Enabled="true" />

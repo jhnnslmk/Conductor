@@ -30379,8 +30379,8 @@
         </p:NodeReference>
         <Patch Id="SulZgGVNMvNPf99VH5H9fN">
           <Canvas Id="JC2tiVSg1xULtl4Rnu81TI" CanvasType="Group">
-            <ControlPoint Id="TddgXY2UWenOFO2HYZLVju" Bounds="197,258" />
-            <ControlPoint Id="VgZKBoIzn7yMPqIy1miDY2" Bounds="157,392" />
+            <ControlPoint Id="TddgXY2UWenOFO2HYZLVju" Bounds="376,422" />
+            <ControlPoint Id="VgZKBoIzn7yMPqIy1miDY2" Bounds="203,422" />
             <ControlPoint Id="PN0eEMriT5PPKO3nqK2CZZ" Bounds="71,33" />
             <Node Bounds="69,56,36,19" Id="Vr5pEh2WTUYLsccTYEv073">
               <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
@@ -30449,7 +30449,7 @@
               <Pin Id="OGXfK9QSDagMpLqjGDaRoY" Name="Channel Message" Kind="OutputPin" />
               <Pin Id="VhCfoM9tH86N9yjVEd4Cpy" Name="Absolute Ticks" Kind="OutputPin" />
             </Node>
-            <Node Bounds="153,335,76,26" Id="ChoRDVVTDksOGe83nqVVWk">
+            <Node Bounds="154,335,76,26" Id="ChoRDVVTDksOGe83nqVVWk">
               <p:NodeReference LastCategoryFullName="IO.Midi.Messages.ChannelMessage" LastSymbolSource="VL.IO.Midi.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="RecordType" Name="ChannelMessage" />
@@ -30461,7 +30461,7 @@
               <Pin Id="OemEcqrCg3YNHvBQoXWHlx" Name="Number" Kind="OutputPin" />
               <Pin Id="GP70C9lnjwdLYO35zEj61y" Name="Value" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="ELTl8tJrP5fP9y0ICJ4c01" Bounds="261,393" />
+            <ControlPoint Id="ELTl8tJrP5fP9y0ICJ4c01" Bounds="283,422" />
           </Canvas>
           <Patch Id="EiAEyGxxYXNM0HaaLSYSF9" Name="Create" />
           <Patch Id="Lml6E3AHzvtO40hjZcTHMn" Name="Update">
