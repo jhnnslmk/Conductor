@@ -1769,7 +1769,7 @@
               <Pin Id="DPoLrUChwXdO4alocDUJJ2" Name="AppModel" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="Vgk38rMXyuvNA8PNupXhAT" Bounds="258,147" />
-            <ControlPoint Id="LrcRZcNafreOq3hWQJq9rd" Bounds="258,395" />
+            <ControlPoint Id="LrcRZcNafreOq3hWQJq9rd" Bounds="258,405" />
             <Node Bounds="370,288,45,26" Id="KWehQ0QGYVDM0reMwdYf0l">
               <p:NodeReference LastCategoryFullName="Primitive.String" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -1794,7 +1794,7 @@
                 <Item>\</Item>
               </p:Value>
             </Pad>
-            <Node Bounds="370,325,55,26" Id="HuSzhLR9VSKNoYaWzgWPhT">
+            <Node Bounds="370,339,55,26" Id="HuSzhLR9VSKNoYaWzgWPhT">
               <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="SplitLast" />
@@ -1805,13 +1805,37 @@
               <Pin Id="Svtk1usnPpSOmt0CKZ80sZ" Name="Output" Kind="StateOutputPin" />
               <Pin Id="Rr61nCNJtMiOXOCNmsE4j2" Name="Result" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="Cg1Hnq5y5SCQdF0QjqFYAb" Bounds="422,395" />
+            <ControlPoint Id="Cg1Hnq5y5SCQdF0QjqFYAb" Bounds="422,405" />
+            <Node Bounds="606,339,123,26" Id="B57bQpIqw1hL73DE5Kuect">
+              <p:NodeReference LastCategoryFullName="Conductor.Runtime.AppRuntime" LastSymbolSource="Conductor.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="SaveLoadInfo" />
+                <CategoryReference Kind="ClassType" Name="AppRuntime" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="Q1LEjgALAowOMbYSQgUVeW" Name="Input" Kind="StateInputPin" />
+              <Pin Id="RpRFgUPmjpVMCISwWaxzWm" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="CTisf0qbqjeLntA8frOor8" Name="Load" Kind="OutputPin" />
+              <Pin Id="RGBUNiLVdPsPy2i7VkT8bh" Name="Save" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="541,288,70,26" Id="F9FIFMaLEVgOeDLdRvALSH">
+              <p:NodeReference LastCategoryFullName="Conductor.Application.Conductor" LastSymbolSource="Conductor.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="GetRuntime" />
+              </p:NodeReference>
+              <Pin Id="R0luHiZIBjAQCyK1IQhMMw" Name="Input" Kind="StateInputPin" />
+              <Pin Id="BcXOAZa4IFxQS95elW7dC1" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="NUP9o7EdsAiLtj7yQKCubU" Name="App Runtime" Kind="OutputPin" />
+            </Node>
+            <ControlPoint Id="VEoxk3H17MHNlLxRvT4tzL" Bounds="667,405" />
+            <ControlPoint Id="SkZD5UZS9EdOTCjdglhVHx" Bounds="726,405" />
           </Canvas>
           <Patch Id="C6RO8kMGMlNOEGeqZD7Ky6" Name="Create" />
           <Patch Id="Pn9mNv4iFmwNh2iZ7JmZxh" Name="Update">
             <Pin Id="LeNyA0EuZjSPWcOOBPvN4p" Name="Application" Kind="InputPin" Bounds="257,172" />
             <Pin Id="VxyZx8nJpBCOJrxIwM6jTT" Name="Session Name" Kind="OutputPin" Bounds="259,289" />
             <Pin Id="CTcURjYQxXPPIiwd3zNvw3" Name="Filename" Kind="OutputPin" Bounds="422,395" />
+            <Pin Id="CHBo9qG99ovPsaGtEkkx2v" Name="Load" Kind="OutputPin" Bounds="642,406" />
+            <Pin Id="Qshe3uDOlMKPfc7gCvcWMQ" Name="Save" Kind="OutputPin" Bounds="680,453" />
           </Patch>
           <ProcessDefinition Id="BXI0rSU3XksLEw7gfO66p8">
             <Fragment Id="FR9WLGROQBsNDY78DKxlaS" Patch="C6RO8kMGMlNOEGeqZD7Ky6" Enabled="true" />
@@ -1827,6 +1851,12 @@
           <Link Id="Sqd9LIPqeDxLzaoP4N1zjD" Ids="TYO179TxdfHOo0yDoblZf1,Pf6LOXND2TANpGIKXCdB7s" />
           <Link Id="Bl4JxnDz15mLiYeCBAvF7T" Ids="Rr61nCNJtMiOXOCNmsE4j2,Cg1Hnq5y5SCQdF0QjqFYAb" />
           <Link Id="CPchbjveXZDOsYJHfmGIb7" Ids="Cg1Hnq5y5SCQdF0QjqFYAb,CTcURjYQxXPPIiwd3zNvw3" IsHidden="true" />
+          <Link Id="VXUv2EtfxEsN3IOqeI1MUA" Ids="Vgk38rMXyuvNA8PNupXhAT,R0luHiZIBjAQCyK1IQhMMw" />
+          <Link Id="Oge9AtKPzWfP6ey4CqzJcA" Ids="NUP9o7EdsAiLtj7yQKCubU,Q1LEjgALAowOMbYSQgUVeW" />
+          <Link Id="RrDBmKSL5koPPRgEbqLMiI" Ids="CTisf0qbqjeLntA8frOor8,VEoxk3H17MHNlLxRvT4tzL" />
+          <Link Id="FLF5ETDDKk0OsKVSK1nUS7" Ids="VEoxk3H17MHNlLxRvT4tzL,CHBo9qG99ovPsaGtEkkx2v" IsHidden="true" />
+          <Link Id="RSqrGjWt4soMohQGlJ1Wyn" Ids="RGBUNiLVdPsPy2i7VkT8bh,SkZD5UZS9EdOTCjdglhVHx" />
+          <Link Id="IhhBArmaPzDPij5gPo4zpA" Ids="SkZD5UZS9EdOTCjdglhVHx,Qshe3uDOlMKPfc7gCvcWMQ" IsHidden="true" />
         </Patch>
       </Node>
       <Canvas Id="Hagn7ItidDaLr866d3Fno9" Name="Utils" Position="466,-204">
